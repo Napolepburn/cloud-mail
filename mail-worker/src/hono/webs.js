@@ -1,6 +1,8 @@
 import app from './hono';
 import '../security/security'
 
+console.log("routes loaded");
+
 import '../api/email-api';
 import '../api/user-api';
 import '../api/login-api';

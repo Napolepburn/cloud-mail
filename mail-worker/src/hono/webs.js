@@ -1,8 +1,6 @@
 import app from './hono';
 import '../security/security'
 
-console.log("routes loaded");
-
 import '../api/email-api';
 import '../api/user-api';
 import '../api/login-api';
@@ -23,3 +21,5 @@ import '../api/public-api'
 import '../api/telegram-api'
 import '../api/oauth-api'
 export default app;
+
+console.log("routes loaded");
